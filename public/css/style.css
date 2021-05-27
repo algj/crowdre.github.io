@@ -1,0 +1,408 @@
+/*
+@media (min-width: 576px) {}
+@media (min-width: 768px) {}
+@media (min-width: 992px) {}
+*/
+
+/* Sticky navbar */
+.navbar {
+  background: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.navbar-shadow-mask {
+  background: #ffffff;
+}
+
+.navbar-shadow {
+  background: #ffffff;
+}
+
+.bg-light-green {
+  background: #86bc2418;
+}
+.bg-light-blue {
+  background: #008bd218;
+}
+
+.bannerTop-green,
+.bannerTop-blue {
+  background-color: #000000c0;
+}
+.bannerTop-bg {
+  background-image: url("../img/city_top_view_272663172.jpeg");
+  background-size: cover;
+}
+
+.img-resp {
+  height: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+.btn-md-wide,
+.btn-md-wider,
+.btn-lg-wide,
+.btn-lg-wider {
+  min-width: 100%;
+}
+
+.btn-xl-arrow,
+.btn-xl-arrow-green,
+.btn-xl-arrow-blue {
+  margin: -11px 0;
+  right: -21px;
+  position: relative;
+  height: 100%;
+  text-align: center;
+  width: 50px;
+  line-height: 58px;
+  border-radius: 0 10px 10px 0;
+  background: #ffffff20;
+  overflow-y: hidden;
+}
+.btn-xl-arrow-green {
+  background: #86bc24b0;
+}
+.btn-xl-arrow-blue {
+  background: #008bd2b0;
+}
+
+.btn-xl-arrow-img {
+  position: relative;
+  margin-top: -5px;
+  height: 20px;
+}
+
+.zaufali-logo {
+  max-width: 50%;
+}
+
+.expanded {
+  margin-left: -50px;
+  margin-right: -50px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border-radius: 0;
+}
+
+.content {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  overflow: hidden;
+}
+
+.btn,
+.rounded-def {
+  border-radius: 10px;
+}
+
+.rounded-lg-top-def {
+  border-radius: 10px 10px 0 0;
+}
+.rounded-lg-bottom-def {
+  border-radius: 0 0 10px 10px;
+}
+
+.img-cover {
+  height: 300px;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg-gradient {
+  position: absolute;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  height: 550px;
+  margin-top: -200px;
+  background: linear-gradient(180deg, #00000007, #00000000);
+  z-index: -10;
+}
+
+@media (min-width: 576px) {
+  .bg-gradient {
+    margin-top: -270px;
+  }
+
+  .expanded {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+
+  .content {
+    overflow: unset;
+  }
+}
+
+@media (min-width: 768px) {
+  .bg-gradient {
+    margin-top: -160px;
+  }
+
+  .img-resp {
+    min-height: 100%;
+    text-align: center;
+  }
+
+  .btn-md-wide,
+  .btn-md-wider {
+    min-width: 0px;
+  }
+
+  .btn-md-wider {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .bannerTop-text-green {
+    background-color: #86bc24;
+  }
+  .bannerTop-text-blue {
+    background-color: #008bd2;
+  }
+  .bannerTop-green {
+    /* Only show half of the banner green color, half transparent (for image) */
+    background: linear-gradient(90deg, #86bc24 50%, #00000000 50%);
+  }
+  .bannerTop-blue {
+    /* Only show half of the banner green color, half transparent (for image) */
+    background: linear-gradient(90deg, #008bd2 50%, #00000000 50%);
+  }
+  .bannerTop-bg {
+    /* Show image on left */
+    background-size: 50% auto;
+  }
+
+  .nav-item {
+    margin-left: 7px;
+  }
+
+  .nav-item > btn {
+    margin-left: 10px;
+  }
+}
+
+@media (min-width: 992px) {
+  .img-cover {
+    height: auto;
+    margin-left: 15px;
+    margin-right: -15px;
+  }
+
+  .btn-lg-wide,
+  .btn-lg-wider {
+    min-width: 0px;
+  }
+
+  .btn-lg-wider {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .rounded-lg-top-def,
+  .rounded-lg-bottom-def {
+    border-radius: 10px;
+  }
+
+  .bg-gradient {
+    margin-top: -100px;
+  }
+
+  .zaufali-logo {
+    max-width: 100%;
+  }
+}
+
+.bannerImg-cut {
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
+}
+
+.navbar-logo {
+  height: 50px;
+}
+
+.shadow-def {
+  box-shadow: 0px 0px 30px -10px #0000007f;
+}
+
+.text-sub {
+  font-size: 18px;
+}
+
+.icon-def {
+  width: 39px;
+  height: 39px;
+  margin: auto 14px auto 0;
+}
+
+.icon-small-def {
+  width: 16px;
+  height: 16px;
+  margin: auto 10px auto 0;
+}
+
+.btn-xl {
+  font-size: 24px;
+  padding: 10px 20px;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.field-blue, .field-green {
+  border: 2px solid #3ca7dd;
+  border-top: none;
+  margin: 32px 2px;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.field-blue h1, .field-green h1 {
+  font-size: 16px;
+  margin: -16px -8px 0;
+}
+
+.field-blue h1 span, .field-green h1 span {
+  float: left;
+  margin: -1px 4px 0 4px;
+}
+
+.field-blue h1:before, .field-green h1:before {
+  border-radius: 10px 0 0 0;
+  border-top: 2px solid #3ca7dd;
+  content: " ";
+  float: left;
+  margin: 8px 2px 0 -1px;
+  width: 20px;
+  height: 24px;
+}
+
+.field-blue h1:after, .field-green h1:after {
+  border-radius: 0 10px 0 0;
+  border-top: 2px solid #3ca7dd;
+  content: " ";
+  display: block;
+  height: 24px;
+  left: 2px;
+  margin: 0 1px 0 0;
+  overflow: hidden;
+  position: relative;
+  top: 8px;
+}
+
+.info-seperator{
+  margin: 120px 14px 0 14px;
+}
+.btn-float-left,
+.btn-float-right {
+  border-color: #fff0;
+  margin-top: 16px;
+}
+
+@media (min-width: 576px) { /* 530px wide container */
+  .info-seperator{
+    display:none;
+  }
+  
+  .btn-float-left,
+  .btn-float-right {
+    padding-left: 5px;
+    padding-right: 5px;
+    position: relative;
+    top: -100px;
+
+    background: rgba(255,255,255, 0.8 ); /* make buttons transparent? */
+    /* Make shadows appear when buttons get inside the container */
+    box-shadow: 0px 0px calc( min( 58px + ( 140px + 530px - 100vw )/2 , 30px) ) -10px #0000007f;
+  }
+
+  .btn-float-left {
+    /* Responsive buttons */
+    left: calc( -60px - ( 2px - (530px - 100vw)/3  ) );
+  }
+
+  .btn-float-right {
+    /* Responsive buttons */
+    left: calc( 346px + ( 2px - (530px - 100vw)/3  ) );
+  }
+}
+
+@media (min-width: 768px) { /* 710px wide container */
+
+  .btn-float-left,
+  .btn-float-right {
+    top: 370px;
+    box-shadow: 0px 0px calc( min( 58px + ( 140px + 710px - 100vw )/2 , 30px) ) -10px #0000007f;
+  }
+
+  .btn-float-left {
+    /* Responsive buttons */
+    left: calc( -60px - ( 2px - (710px - 100vw)/3  ) );
+  }
+
+  .btn-float-right {
+    /* Responsive buttons */
+    left: calc( 524px + ( 2px - (710px - 100vw)/3  ) );
+  }
+
+}
+
+@media (min-width: 992px) { /* 950px wide container */
+
+  .btn-float-left,
+  .btn-float-right {
+    top: 200px;
+    /* Make shadows appear when buttons get inside the container */
+    box-shadow: 0px 0px calc( min( 58px + ( 140px + 950px - 100vw )/2 , 30px) ) -10px #0000007f;
+  }
+
+  .btn-float-left {
+    /* Responsive buttons */
+    left: calc( -60px - ( 2px - (950px - 100vw)/3  ) );
+  }
+
+  .btn-float-right {
+    /* Responsive buttons */
+    left: calc( 764px + ( 2px - (950px - 100vw)/3  ) );
+  }
+
+}
+
+@media (min-width: 1200px) { /* 1130px wide container */
+
+  .btn-float-left,
+  .btn-float-right {
+    top: 200px;
+    /* Make shadows appear when buttons get inside the container */
+    box-shadow: 0px 0px calc( min( 58px + ( 140px + 1130px - 100vw )/2 , 30px) ) -10px #0000007f;
+  }
+
+  .btn-float-left {
+    /* Responsive buttons */
+    left: calc( -60px - ( 2px - (1130px - 100vw)/3  ) );
+  }
+
+  .btn-float-right {
+    /* Responsive buttons */
+    left: calc( 944px + ( 2px - (1130px - 100vw)/3  ) );
+  }
+
+}
+
+.tb-parent {display: table;}
+.tb-row {display: table-row;}
+.tb-cell {display: table-cell;}
+
+
+.navbar-toggler {
+  border: 0;
+}

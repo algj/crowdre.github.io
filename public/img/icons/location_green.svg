@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg2"
+   width="50"
+   height="50"
+   viewBox="0 0 50 50.000001"
+   sodipodi:docname="gps_green.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="885"
+     inkscape:window-height="766"
+     id="namedview4"
+     showgrid="false"
+     inkscape:zoom="4.6640327"
+     inkscape:cx="20.664347"
+     inkscape:cy="51.296208"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g10"
+     inkscape:document-rotation="0" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="g10">
+    <path
+       id="path839"
+       style="fill:#86bc24;fill-opacity:1;stroke-width:15.1973;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       d="M 24.832031 0 A 25 25 0 0 0 0 25 A 25 25 0 0 0 25 50 A 25 25 0 0 0 50 25 A 25 25 0 0 0 25 0 A 25 25 0 0 0 24.832031 0 z M 24.775391 7.4140625 C 29.776978 7.3613007 34.802722 10.21425 36.888672 14.894531 C 39.740684 20.325342 37.539706 26.649529 34.566406 31.513672 C 32.055283 35.562114 28.92591 39.24754 25.412109 42.449219 L 25.113281 42.564453 L 24.777344 42.589844 C 19.099818 37.326159 13.852045 30.922711 12.054688 23.234375 C 10.829712 17.258362 14.168238 10.724257 19.892578 8.4746094 C 21.44471 7.771233 23.108195 7.4316498 24.775391 7.4140625 z M 25.304688 14.5 C 22.466862 14.419801 19.552715 16.229697 19.039062 19.230469 C 17.898657 23.765876 22.340756 27.880858 26.779297 26.515625 C 31.310893 25.423851 32.764476 18.569324 28.894531 15.845703 C 27.869226 14.962968 26.594608 14.536454 25.304688 14.5 z " />
+  </g>
+</svg>
